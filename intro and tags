@@ -1,0 +1,26 @@
+
+<html>
+we begin and end an HTML document with an <html> element. This “html” tag
+operates in much the same way as the “!DOCTYPE” declaration does; it tells the browser
+that the contents of a file are written in HTML.
+
+<head>
+HTML files include a <head> element, which contains metadata (data about data):
+
+<title>
+The <title> element defines the title of the document and is required in all HTML documents. This 
+element defines the title in the browser tab, provides a title for the page when it is added to favorites, 
+and displays a title for the page in search engine results.
+
+<body>
+The <body> element contains all the content visible on the webpage. Inside the <body> element,
+we define the different parts of a webpage using semantic elements, like <header> and <section>.
+
+The <p> tag represents a paragraph
+The <ul> tag defines an unordered bulleted list of items. This tag must be used together with the
+<li> tag to create individual items on the list.
+The <ol> tag defines an ordered numbered list of items.
+ <li> tag to create individual items on the list.
+ The <a> tag is used to define a hyperlink.
+ The <br> tag inserts a single line break into a document.
+ The <img> tag defines an image on an HTML page
