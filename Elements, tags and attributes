@@ -1,0 +1,23 @@
+If you are sitting at a coffee shop next to a table of Web developers, you will probably hear three words quite a bit:
+'Tags', 'Attributes' and 'Elements' (or sometimes 'DOM elements', same thing just more precise and wordy).
+
+'Elements' are the pieces themselves, i.e. a paragraph is an element, or a header is an element, even the body 
+is an element.  Most elements can contain other elements, as the body element would contain header elements, 
+paragraph elements, in fact pretty much all of the visible elements of the DOM.
+
+
+An HTML comment tag starts with <!-- and ends with -->, meaning that as the computer is 
+reading through your HTML file, if it sees <!-- it will ignore everything it sees until 
+it comes across -->.  There is no open or close tag, just a comment tag.  Unlike most other t
+hings in HTML5, comments cannot be nested.  If you try that, like:
+
+Tags' are what we use to organize a text file (which is just a long string of characters)
+such that it represents a tree of elements that make up the html document.  Tags are not the
+elements themselves, rather they're the bits of text you use to tell the computer where an element
+begins and ends.  When you 'mark up' a document, you generally don't want those extra notes that are 
+not really part of the text to be presented to the reader. HTML borrows a technique from another language, 
+SGML, to provide an easy way for a computer to determine which parts are "Markup" and which parts are the content.
+
+By using '<' and '>' as a kind of parentheses, HTML can indicate the beginning and end of a tag, 
+i.e. the presence of '<' tells the browser 'this next bit is markup, pay attention'.
+
