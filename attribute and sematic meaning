@@ -1,0 +1,30 @@
+Attributes are used in tags to further define the tag:
+
+It is used inside the opening tag it is applied to and should be added after a space 
+from the tag name: <ol start="5">. The start attribute is used inside the <ol> tag. 
+start="5"
+Attribute name, equal sign, opening quote, attribute value, closing quote
+Attributes are a name-value pair: start="5"
+name: start
+value: any positive integer
+The only exception to the name-value pair is if the attribute is a 'boolean attribute'. These 
+attributes have only two types of values - true or false. But instead of writing "true" or "false" 
+for its value, you add the attribute name to indicate true and omit it to indicate false. An example is
+the 'reversed' attribute in an ordered list <ol>. Adding this attribute is an indication that the list order 
+should be reversed (in descending order). 
+     <ol reversed></ol>
+A tag can have multiple attributes:
+   <ol start="5"></ol>
+   <ol id="cinema" class="attribute-list" start="5"></ol>
+   <ol start="5" class="attribute-list"></ol>
+   
+   <b> versus <strong>
+   <i> versus <em>
+   
+   <b>	Style	Makes text bold
+   
+   <i>	Style	Makes text itali
+   
+   <em>	Semantic	Emphasizes text
+   
+   <strong>	Semantic	Important text
