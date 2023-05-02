@@ -1,0 +1,28 @@
+The <img> tag
+
+The 'src' attribute
+The source attribute from the <img> tag tells us where to fetch
+the image from. There are two different types of
+URLs you can give for source
+
+PNG (Portable Network Graphics) 
+SVG (Scalable Vector Graphics)
+JPEG (Joint Photographic Experts Group) 
+
+Importance of the 'alt' attribute
+If you add alt to your image, screen readers will typically announce that there
+is an image and 
+read out the contents of the alt attribute.
+
+Your image will not display if the path in your source attribute is wrong, if you 
+have a slow internet connection, or if the image has been relocated or renamed.
+
+It will show a broken link. It is useful to have the alternate text display so
+the user can make sense of the missing image.
+
+Search engines do not 'see' images. They rely on the alt attribute to find out
+what the image is about. If you use your target keyword in alt, it will optimize
+the search.
+
+To consume less data, some mobile users turn off images. They need the alt attribute 
+to find out what the image is about.
