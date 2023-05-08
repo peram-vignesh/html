@@ -1,0 +1,55 @@
+The <style> tag:
+The best practice when working with CSS is to keep it in an external file using the <link> tag. 
+
+The <link> tag
+While <style> is convenient, the better practice is to put the CSS into a separate file. One of the key advantages
+of using a separate file is that the CSS styles can easily be re-used between your different .html pages.
+example:<link rel="stylesheet" href="css/my_styles.css">
+
+Selector
+In the above, the selector is p.  When a selector appears unprefixed by any punctuation, then it is 
+assumed to match to an HTML tag
+
+Declaration
+The declaration part of a CSS rule opens and closes with curly braces: {  }  
+And between them, you can put any number of property value pairs.
+
+Properties and values
+example:font-size: 12px;
+
+Example:
+p {
+  font-size: 12px;
+  line-height: 15px;
+  color: #223344;
+}
+
+ont-size
+font-size can be used to size the text of a tag.  The value for the font-size has two parts:
+a number and a unit.
+Some of the most common units are: px, em, %, vh.  For example:
+
+p { font-size: 18px; }
+q { font-size: .8em; }
+blockquote { font-size: 10vh; }
+
+line-height
+Whereas font-size may drive the size of the text itself, the line-height property drives 
+the height of the space it is drawn into.  A large line-height will give the text more spacing. 
+
+he tags <span>, <a>, <i>, <b>, <q> and others are considered "inline" because they do not receive 
+their own new line when used.And text-align is often not useful on these tags.
+
+ <p>, <li>, <ul>, <ol>, <div>, and <blockquote>
+
+p { text-align: left; }
+blockquote { text-align: right; }
+
+left:
+It was the best of times, it was the worst of times, it was the age of wisdom, it was the 
+age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, 
+it was the season of Darkness, it was the spring of hope, it was the winter of despair.
+
+example:
+p { font-weight: bold; }
+blockquote { font-weight: 900; }
