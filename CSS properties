@@ -1,0 +1,39 @@
+Margin
+
+p { margin: 10px; }  
+
+p {
+ margin-left: 10px; 
+ margin-right: 10px;
+ margin-top: 10px;   
+ margin-bottom: 10px; }
+
+Color
+
+Named colors
+p { color: blue; }
+b { color: transparent; }
+i { color: lightgrey; }
+
+rgb/rgba
+p { color: rgb(10, 200, 255); }
+p { color: rgb(0, 0, 0); } 
+p { color: rgb(255, 255, 255); } 
+b { color: rgba(10, 200, 255, 0.5); }
+
+Hex code
+p { color: #3A2BFF; }
+
+px
+'px' is short for 'pixel', which is a single dot on the screen. 
+So text with  font-size:20px   is 20 pixels tall on-screen
+. In actuality, due to browser zooming, retina displays, or other factors,
+this may or may not match to 20 physical on-screen pixels.
+
+px are useful for both horizontal and vertical dimensions. 
+
+em
+
+'em' is a typographic term that has come to the Web. On the Web, em units are 
+usually used for vertical dimensions.  One 'em' maps to the height of one capital 
+letter in the parent context. 
