@@ -1,0 +1,25 @@
+The list markup tags (<ul>, <ol> and <li>) are some of the most frequently used specific purpose tags in HTML.
+There are a few CSS style properties that are available for lists.
+list-style-type
+list-style-type governs the little list marker that is usually positioned to the left of any list item.  
+For un-ordered lists (<ul>), there are several popular values: disc, circle, square, and none.
+li { list-style-type: disc; }
+
+
+html
+<ul>
+ <li>eggs</li>
+ <li>milk</li> 
+ <li>bread</li>
+</ul>
+
+or ordered lists (<ol>) you can choose different ways of having the numbers shown: 
+decimal, decimal-leading-zero, lower-roman, upper-roman, lower-alpha, upper-alpha, 
+as well as several of the worlds languages:armenian, georgian, simp-chinese-formal, and many others.
+
+list-style-position
+Besides choosing the type of marker applied to each list item, you may also want to govern how 
+closely it is positioned to the list itself. The list-style-position property handles that.  
+The two values are inside and outside.  They govern whether the markers are positioned inside 
+the box of the list, or outside. This is most evident if a border or background or similar is 
+applied to the list. Below, we have put a blue border on the list. 
