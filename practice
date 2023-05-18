@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+<h1>smaple html program</h1>
+<h2>testing using</h2>
+<h3>sublime text editor</h3>
+
+<p>This is a paragraph.</p>
+<p>This is another paragraph.</p>
+
+<b>This text is bold</b>
+
+<strong>This text is important!</strong>
+
+<i>This text is italic</i>
+
+<em>This text is emphasized</em>
+
+<p>Do not forget to buy <mark>milk</mark> today.</p>
+
+<p>My favorite color is <del>blue</del> red.</p>
+
+<ul>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>
+
+</body>
+</html>
