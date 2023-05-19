@@ -1,0 +1,34 @@
+The <table> element
+This element defines a table in HTML.
+
+It used to have attributes (such as border) but they have all been deprecated as
+the same can be achieved through CSS.
+CSS properties that may be especially useful to style the <table> element:
+
+width to control the width of the table;
+border, border-style, border-color, border-width, border-collapse, border-spacing
+to control the aspect of cell borders, rules and frame;
+margin and padding to style the individual cell content;
+text-align and vertical-align to define the alignment of text and cell content.
+<caption>
+The caption element is used to give a title to a table and for best practice, should be
+used as the first child element of <table>. It can be used to provide more context to the 
+table if the table's content is ambiguous. As a summary of the table content, a caption can
+also be helpful for people who have difficulty understanding the content or who use assistive technology.
+
+<tr>
+Creates a table row.
+
+<th>
+There are two types of cells in a table - header and standard.
+<th> 
+creates table header cells. The content of table header cells is bold and centered by default.
+<colgroup>
+This element allows you to group columns in a table. Grouping columns is useful if you want
+to specify properties for a group of columns, like applying styles to the whole column instead 
+of repeating it for each cell.
+<col>
+Used within <colgroup>, the <col> element specifies the column for each column within a colgroup.
+The only element a <colgroup> can contain is <col>. 
+
+
